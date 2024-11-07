@@ -6,8 +6,9 @@ website:
   title: "My awesome website"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - text: Home
+        file: index.qmd
+      - talks.qmd
       - projects.qmd
     tools:
       - icon: twitter
